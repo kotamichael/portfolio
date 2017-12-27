@@ -1,0 +1,75 @@
+
+* {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+h1 {
+	/* For WebKit */
+	 background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(10,10,50,.25)));
+	/* For Mozilla */
+	 background: -moz-linear-gradient(top, rgba(255,0,0,1), rgba(0,0,255,.25));
+	/* For lt IE8 */
+	 filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0,
+	startColorstr='#88ff0000', endColorstr='#3300ff00');
+	/* For gt IE8 */
+	 -moz-filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0,
+	startColorstr='#88ff0000', endColorstr='#3300ff00');
+}
+
+p {
+	font-size: 3.0vh;
+}
+
+h1 {
+	font-family: 'Cormorant SC', serif;
+	font-size: 5.5vh;
+	font-weight: 600;
+}
+
+h2 {
+	font-family: 'Cormorant SC', serif;
+	font-size: 5.0vh;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Cormorant SC', serif;
+	font-size: 4.5vh;
+	font-weight: 600;
+}
+
+.row {
+	text-align: center;
+}
+
+.me {
+	font-family: 'Cormorant SC', serif;
+	font-size: 4.5vh;
+	font-weight: 600;
+}
+
+.interactive {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+	font-size: 2.7vh;
+}
+
+.carouselpic {
+	overflow: hidden;
+}
+
+.nav-item {
+	font-family: 'Poiret One', cursive;
+	font-size: 2.8vh;
+}
+.preview {
+	max-height="346.88px";
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.img-responsive {
+	display: block;
+	height: 346.88px;
+	width: 100%;
+}
